@@ -1,12 +1,10 @@
-
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServiceTimes from '@/components/ServiceTimes';
 import PastorMessage from '@/components/PastorMessage';
 import HourOfLiberation from '@/components/HourOfLiberation';
-import { Button } from '@/components/ui/button';
-import { ArrowRight, Book, Heart, Users } from 'lucide-react';
+import { ArrowRight, Book, Heart, Users, Cross } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Index = () => {
@@ -23,6 +21,41 @@ const Index = () => {
         
         <section className="py-16">
           <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4">Our Mandate</h2>
+              <div className="w-24 h-1 bg-church mx-auto mb-8"></div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <Cross className="h-10 w-10 text-church mx-auto mb-4" />
+                  <p className="text-gray-700">
+                    Fulfilling mandate to reach the world for the kingdom
+                  </p>
+                  <p className="text-sm text-gray-500 mt-2">Matt. 18:18-20</p>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <Heart className="h-10 w-10 text-church mx-auto mb-4" />
+                  <p className="text-gray-700">
+                    Being anointed to break Satanic soul-tie
+                  </p>
+                  <p className="text-sm text-gray-500 mt-2">Luke 4:8-9</p>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <Book className="h-10 w-10 text-church mx-auto mb-4" />
+                  <p className="text-gray-700">
+                    With the word of God - a detergent that washes the soul from the dreg of sin
+                  </p>
+                  <p className="text-sm text-gray-500 mt-2">Ephess. 5:26</p>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <Users className="h-10 w-10 text-church mx-auto mb-4" />
+                  <p className="text-gray-700">
+                    Empowered by the Holy Spirit
+                  </p>
+                  <p className="text-sm text-gray-500 mt-2">Acts 1:8</p>
+                </div>
+              </div>
+            </div>
+            
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Welcome to Our Church</h2>
               <div className="w-24 h-1 bg-church mx-auto"></div>
