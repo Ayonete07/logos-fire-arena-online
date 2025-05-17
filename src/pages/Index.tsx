@@ -1,9 +1,11 @@
+
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServiceTimes from '@/components/ServiceTimes';
 import PastorMessage from '@/components/PastorMessage';
 import HourOfLiberation from '@/components/HourOfLiberation';
+import PastorBooks from '@/components/PastorBooks';
 import { ArrowRight, Book, Heart, Users, Cross } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -80,9 +82,9 @@ const Index = () => {
                 <div className="inline-block p-4 bg-church rounded-full text-white mb-4">
                   <Heart size={32} />
                 </div>
-                <h3 className="text-xl font-bold mb-3">Deliverance</h3>
+                <h3 className="text-xl font-bold mb-3">Liberation</h3>
                 <p className="text-gray-600">
-                  We are committed to delivering people from the captivity of the devil and empowering them to succeed in God's way.
+                  We are committed to delivering people from the captivity of the devil in the name of Jesus and empowered by the Holy Ghost empowering them to succeed in God's way.
                 </p>
               </div>
               
@@ -102,6 +104,7 @@ const Index = () => {
         <PastorMessage />
         <ServiceTimes />
         <HourOfLiberation />
+        <PastorBooks />
         
         <section className="py-16 bg-gray-100">
           <div className="container mx-auto px-4 text-center">

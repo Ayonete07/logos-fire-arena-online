@@ -24,13 +24,13 @@ const LiberationMinistry = () => {
                 <div className="w-24 h-1 bg-church mb-6"></div>
                 <p className="text-gray-700 mb-4">
                   "The Hour of Liberation" is an arm of the Church where men are delivered from their afflictions.
-                  It is a special monthly three-day program where Pastor Joseph Omotayo Ologbonsaiye ministers to 
+                  It is a special monthly program where Pastor Joseph Omotayo Ologbonsaiye ministers to 
                   those bound by spiritual chains and in need of freedom.
                 </p>
                 <p className="text-gray-700 mb-4">
                   Pastor Joseph Omotayo Ologbonsaiye believes in delivering people from the captivity of the devil 
-                  and empowering men to succeed in God's way. Men who attend this programme attest to the goodness 
-                  of God to save and to deliver.
+                  in the name of Jesus and empowered by the Holy Ghost. By this, he empowers men to succeed in God's way. 
+                  Men who attend this programme attest to the goodness of God to save and to deliver.
                 </p>
                 <p className="text-gray-700 mb-6">
                   Through prayers, teaching, and the demonstration of God's power, many have experienced breakthrough, 
@@ -42,15 +42,22 @@ const LiberationMinistry = () => {
                   <div className="space-y-4">
                     <div className="flex items-center">
                       <Calendar className="mr-3 h-5 w-5 text-church" />
-                      <span>Last Friday of every month</span>
+                      <div>
+                        <p>Ibadan: 1st Weekend (Friday to Sunday) of the month</p>
+                        <p>Lagos: 3rd Weekend (Friday to Sunday) of the month</p>
+                      </div>
                     </div>
                     <div className="flex items-center">
                       <Clock className="mr-3 h-5 w-5 text-church" />
-                      <span>10:00 PM - 1:00 AM</span>
+                      <div>
+                        <p>Arrival: Friday before 4:00 PM</p>
+                        <p>Departure: After Service on Sunday</p>
+                        <p>Vigil Time: 11:00 PM - 2:30 AM</p>
+                      </div>
                     </div>
                     <div className="flex items-center">
                       <MapPin className="mr-3 h-5 w-5 text-church" />
-                      <span>Church Auditorium</span>
+                      <span>Call our hot line for direction</span>
                     </div>
                   </div>
                 </div>

@@ -35,6 +35,12 @@ const PastorMessage = () => {
               </p>
               <p className="text-gray-600 mt-2">- Psalm 51:11-12</p>
             </div>
+            <div className="bg-gray-50 p-6 rounded-lg mb-6">
+              <h3 className="text-xl font-bold mb-3">Our Watch Word</h3>
+              <p className="text-gray-700 italic">
+                "Behold He Cometh, Maranatha"
+              </p>
+            </div>
             <Link to="/about" className="button-church inline-flex items-center">
               Read More About Our Pastor <ArrowRight className="ml-2 h-5 w-5" />
             </Link>

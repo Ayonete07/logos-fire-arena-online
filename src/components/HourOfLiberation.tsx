@@ -18,18 +18,26 @@ const HourOfLiberation = () => {
             <h3 className="text-2xl font-bold mb-4">Monthly Deliverance Program</h3>
             <p className="mb-6">
               "The Hour of Liberation" is an arm of the Church where Pastor Joseph Omotayo Ologbonsaiye 
-              delivers people from the captivity of the devil and empowers men to succeed in God's way. 
-              Men who attend this programme attest to the goodness of God to save and to deliver.
+              delivers people from the captivity of the devil in the name of Jesus and empowered by the Holy Ghost. 
+              By this, he empowers men to succeed in God's way. Men who attend this programme attest to the goodness 
+              of God to save and to deliver.
             </p>
             
             <div className="space-y-4 mb-6">
               <div className="flex items-center">
                 <Calendar className="mr-3 h-5 w-5 text-church-gold" />
-                <span>Last Friday of every month</span>
+                <div>
+                  <p>Ibadan: 1st Weekend (Friday to Sunday) of the month</p>
+                  <p>Lagos: 3rd Weekend (Friday to Sunday) of the month</p>
+                </div>
               </div>
               <div className="flex items-center">
                 <Clock className="mr-3 h-5 w-5 text-church-gold" />
-                <span>10:00 PM - 1:00 AM</span>
+                <div>
+                  <p>Arrival: Friday before 4:00 PM</p>
+                  <p>Departure: After Service on Sunday</p>
+                  <p>Vigil Time: 11:00 PM - 2:30 AM</p>
+                </div>
               </div>
               <div className="flex items-center">
                 <MapPin className="mr-3 h-5 w-5 text-church-gold" />

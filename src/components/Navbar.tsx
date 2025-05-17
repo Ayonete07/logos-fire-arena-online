@@ -13,9 +13,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo area */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-church rounded-full flex items-center justify-center animate-flame">
-              <span className="text-white text-lg font-bold">L</span>
-            </div>
+            <img 
+              src="/lovable-uploads/7753c1b0-3db5-4e54-8d39-79788f0021c1.png" 
+              alt="LOGOS Pentecostal Church Logo" 
+              className="h-12 w-auto"
+            />
             <div>
               <div className="text-lg font-serif font-bold text-church">LOGOS PENTECOSTAL CHURCH</div>
               <div className="text-xs uppercase tracking-wider font-semibold text-church-gold">Fire Arena</div>

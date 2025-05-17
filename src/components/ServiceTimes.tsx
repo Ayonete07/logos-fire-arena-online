@@ -7,22 +7,22 @@ const ServiceTimes = () => {
     {
       day: 'Sunday',
       name: 'Sunday Service',
-      time: '9:00 AM - 11:30 AM'
+      time: '8:00 AM - 11:00 AM'
     },
     {
-      day: 'Tuesday',
+      day: 'Monday',
       name: 'Bible Study',
-      time: '6:00 PM - 7:30 PM'
+      time: '6:00 PM - 8:00 PM'
     },
     {
-      day: 'Thursday',
-      name: 'Prayer Meeting',
-      time: '6:00 PM - 7:30 PM'
+      day: 'Wednesday',
+      name: 'Revival Hour',
+      time: '6:00 PM - 8:00 PM'
     },
     {
       day: 'Last Friday',
       name: 'Hour of Liberation',
-      time: '10:00 PM - 1:00 AM'
+      time: '11:00 PM - 2:30 AM'
     }
   ];
 
